@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-    width: 1422px;
+    width: 100%;
     height: 75px;
     display: flex;
     justify-content: space-between;
@@ -192,7 +192,7 @@ i.fa-solid {
     width: 1320px;
     height: 544.19px;
     padding: 48px 12px;
-    margin: 0px 51px;
+    margin:0 auto;
     display: flex;
 }
 
