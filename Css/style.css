@@ -18,15 +18,9 @@ body {
 .header {
     width:1320px;
     height: 75px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     margin: 0 auto;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -105,19 +99,12 @@ i.fa-solid {
 
 /*/Boady Banner section*/
 .banner {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(31, 34, 56, 0.7)), to(rgba(31, 34, 56, 0.7))), url(../img/carousel-2.jpg);
     background: linear-gradient(0deg, rgba(31, 34, 56, 0.7), rgba(31, 34, 56, 0.7)), url(../img/carousel-2.jpg);
     background-size: cover;
     width:1320px;
     height: 800px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
+    display: flex;;
+    justify-content: center;;
     align-items: center;
     color: white;
     margin: 0 auto;
@@ -773,3 +760,28 @@ trans    flex-wrap: wrap;
     background: #06bbcc;
     padding: 5px 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px){
+    .header{
+        width:100%;
+    }
+        .banner {
+        width:100%;
+    }
+        .footer {
+        width: 100%;
+    }
+
+}
+
+
