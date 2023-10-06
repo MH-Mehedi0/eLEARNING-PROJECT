@@ -787,3 +787,80 @@ trans    flex-wrap: wrap;
 }
 
 
+/* Mobole devices*/
+@media(max-width:768px){
+    .header{
+        width:100%;
+    }
+        .banner {
+        width:100%;
+    }
+    .banner-rap {
+    width: 750px;
+    height: 352px;
+	}
+
+    .service {
+    width: 720px;
+    height: 360px;
+	}
+
+	.service-rap {
+    flex-wrap:wrap;
+	}
+	.about-container {
+    width: 720px;
+    height: 544.19px;
+    padding: 48px 12px;
+    margin:0 auto;
+    display:block;
+	}
+
+    .categories {
+    width: 720px;
+    height: 554px;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 48px 12px;
+    display:block;
+	}
+
+    .courses {
+    width: 720px;
+    height: 501px;
+    margin: 0 auto;
+    padding: 48px 12px;
+}
+
+.courses-list {
+    flex-wrap:wrap;
+    margin-left: -9px;
+    width: 696px;
+    height: 404px;
+
+}
+
+
+   .footer {
+        width: 100%;
+    }
+        .footer-rap {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
